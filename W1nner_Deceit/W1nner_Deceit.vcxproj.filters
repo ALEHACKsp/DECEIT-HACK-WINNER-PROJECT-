@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{63c8d778-6802-4c6d-bc79-93faec9796c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{da2624da-3750-4cd9-9b8a-19c9bc647991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{b04e9a73-619a-40fb-b531-afa2aeabdd20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{6706a4bd-adb8-447a-89f2-f109adce1b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xor">
+      <UniqueIdentifier>{93d18fcb-641d-4790-95ac-bc802b6e39b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{10bf136b-ed52-4559-be91-68736a7ebf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\cry_sdk">
+      <UniqueIdentifier>{5a640a7b-6fb5-4498-9930-ce95a2b2d26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{c329b5f5-d0e9-4294-9bfd-242f28e1dd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings">
+      <UniqueIdentifier>{67693a45-1ad6-4701-954f-28cb3e7891bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\cry_hook">
+      <UniqueIdentifier>{1cc4a454-e0d4-4d54-85e0-6e44e3310502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unicode">
+      <UniqueIdentifier>{18d7e473-ef83-43c4-a37d-6358e876464d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{95a4e62d-b61f-4127-b63a-63a83e547643}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx\stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_sdk\cry_sdk.h">
+      <Filter>library\cry_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xorstr.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_classes.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_defines.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_reversing.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_reversing_tools.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_structs.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_hook\cry_hook.h">
+      <Filter>library\cry_hook</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode\unicode.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="settings\settings.h">
+      <Filter>settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
